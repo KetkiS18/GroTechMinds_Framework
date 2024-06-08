@@ -14,7 +14,7 @@ public class GroupDemo {
 	@Test(groups = {"Linux.Sanity"})
 	public void test2()
 	{
-		System.out.println("Test 2 {\"Sanity\"}");
+		System.out.println("Test 2 {\"Sanity Testing\"}");
 	}
 	@Test(groups = {"Smoke","Sanity"})
 	public void test3()
